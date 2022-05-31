@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app-9"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1lj0g24kj6tbf"
+s3_prefix = "sam-app-9"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "PEERENDPOINT=\"nd-mofgrlszuvgvnfxvxul2e5stly.m-zdttkfdpyvbrvcp2d23fjp27dm.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30003\" CAENDPOINT=\"ca.m-zdttkfdpyvbrvcp2d23fjp27dm.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30002\" ORDERERENDPOINT=\"grpc://orderer.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30001\" CHANNELNAME=\"mychannel\" CHAINCODEID=\"abstore\" MSP=\"m-ZDTTKFDPYVBRVCP2D23FJP27DM\" MEMBERNAME=\"Org1\" SECURITYGROUPID=\"sg-0528b4c42973f9775\" SUBNETID=\"subnet-e4561eda\" VPCID=\"vpc-79a5f403\" LAMBDANAME=\"Querry\""
+image_repositories = []

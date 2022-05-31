@@ -15,14 +15,14 @@
 */
 
 let configObject = {
-    "caEndpoint": process.env.CA_ENDPOINT || "localhost:7054",
-    "peerEndpoint": process.env.PEER_ENDPOINT || "grpc://localhost:7051",
-    "ordererEndpoint": process.env.ORDERER_ENDPOINT || "grpc://localhost:7050",
+    "caEndpoint": process.env.CA_ENDPOINT || "ca.m-zdttkfdpyvbrvcp2d23fjp27dm.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30002",
+    "peerEndpoint": process.env.PEER_ENDPOINT || "grpc://nd-mofgrlszuvgvnfxvxul2e5stly.m-zdttkfdpyvbrvcp2d23fjp27dm.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30003",
+    "ordererEndpoint": process.env.ORDERER_ENDPOINT || "grpc://orderer.n-quosox5k7bdojpltizv2shw7de.managedblockchain.us-east-1.amazonaws.com:30001",
     "channelName": process.env.CHANNEL_NAME || "mychannel",
-    "chaincodeId": process.env.CHAIN_CODE_ID || "ngo",
+    "chaincodeId": process.env.CHAIN_CODE_ID || "abstore",
     "cryptoFolder": process.env.CRYPTO_FOLDER || '/tmp',
-    "mspID": process.env.MSP || 'm-1A2B3CXXXXXXXX',
-    "memberName": process.env.MEMBERNAME || "org1"
+    "mspID": process.env.MSP || 'm-ZDTTKFDPYVBRVCP2D23FJP27DM',
+    "memberName": process.env.MEMBERNAME || "Org1"
 }
 
 module.exports = configObject;
